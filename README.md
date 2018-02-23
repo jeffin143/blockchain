@@ -23,3 +23,11 @@ testrpc //for testing
 open project //inside a editor
 make a new .sol file
 don't forget to add migrations
+
+
+truffle compile
+truffle migrate
+truffle console
+
+
+helloworl.deployed().then(function(instance){return instance.sayHello.call();}).then(function(result){console.log(result);});
