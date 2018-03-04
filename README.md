@@ -64,8 +64,8 @@ helloworl.deployed().then(function(instance){return instance.sayHello.call();}).
 #Web3js Installation (please read full steps)
 
 ##Pre-required tools and installation
-##### download and install git
-##### installing web3 (please read full)
+##### --download and install git
+##### --installing web3 (please read full)
   While installing the web3 through npm command is
   ```
   npm install web3 -save
@@ -79,19 +79,19 @@ helloworl.deployed().then(function(instance){return instance.sayHello.call();}).
    git config --global url."https://".insteadOf git://
    ```
    ## now your git will use https to clone it 
-##### before installing the web 3 you need to install some more dependencies . Commands to install 
+##### --before installing the web 3 you need to install some more dependencies . Commands to install 
    ```
    npm install --global --production windows-build-tools
    ```
    it will take quite long time
-##### After this installation now install Web3 using commands
+##### --After this installation now install Web3 using commands
     ```
     npm install web3
     ```
  ## Step to procced working with web3 
-  ##### go to the directory where the web3 is installed
-  ##### Inside the node_module/Web3/
-  ##### If(there is a folder with names 'dist') that means its correctly installed
-  ##### Else download the web3 folder from https://codeload.github.com/ethereum/web3.js/zip/develop and replace it with the existing      Web3 folder
- ##### Now it will work fine   
+  ##### --go to the directory where the web3 is installed
+  ##### --Inside the node_module/Web3/
+  ##### --If(there is a folder with names 'dist') that means its correctly installed
+  ##### --Else download the web3 folder from https://codeload.github.com/ethereum/web3.js/zip/develop and replace it with the existing      Web3 folder
+ ##### --Now it will work fine   
   
