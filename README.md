@@ -61,4 +61,37 @@ truffle console
 ```
 helloworl.deployed().then(function(instance){return instance.sayHello.call();}).then(function(result){console.log(result);});
 ```
+#Web3js Installation (please read full steps)
 
+##Pre-required tools and installation
+##### download and install git
+##### installing web3 (please read full)
+  While installing the web3 through npm command is
+  ```
+  npm install web3 -save
+  ```
+  it will clone a git repository git://github.com/frozeman/WebSocket-Node.git but it will throw a error 
+  ```
+  Cannot find git://github.com/frozeman/WebSocket-Node.git // or something like this
+  ```
+  This is happening cause the protocol used here is ``` git ``` which is not so effecient in this case to you have to force to replace     the protocol ```https``` instead of ```git``` .so to do that type the following command in the git bash terminal 
+   ```
+   git config --global url."https://".insteadOf git://
+   ```
+   ## now your git will use https to clone it 
+##### before installing the web 3 you need to install some more dependencies . Commands to install 
+   ```
+   npm install --global --production windows-build-tools
+   ```
+   it will take quite long time
+##### After this installation now install Web3 using commands
+    ```
+    npm install web3
+    ```
+ ## Step to procced working with web3 
+  ##### go to the directory where the web3 is installed
+  ##### Inside the node_module/Web3/
+  ##### If(there is a folder with names 'dist') that means its correctly installed
+  ##### Else download the web3 folder from https://codeload.github.com/ethereum/web3.js/zip/develop and replace it with the existing      Web3 folder
+ ##### Now it will work fine   
+  
