@@ -61,9 +61,9 @@ truffle console
 ```
 helloworl.deployed().then(function(instance){return instance.sayHello.call();}).then(function(result){console.log(result);});
 ```
-#Web3js Installation (please read full steps)
+# Web3js Installation (please read full steps)
 
-##Pre-required tools and installation
+## Pre-required tools and installation
 ##### --download and install git
 ##### --installing web3 (please read full)
   While installing the web3 through npm command is
